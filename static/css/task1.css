@@ -1,0 +1,185 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+.btn-blue{
+background-color:rgb(19,82,133);
+}
+
+.btn-green{
+background-color:rgb(174,209,143);
+}
+.btn{
+border-radius:20%;
+width:100%;
+margin-bottom:15px;	
+line-height:2.2;
+color:white;
+	
+}
+*{
+font-family:Consolas;
+}
+
+.container{
+width:80%;
+}
+.clear{
+	clear:both;
+}
+
+/*header section*/
+.sub-header{
+width:50%;
+float:left;
+text-align:left;
+}
+.sub-header:after{
+	content:" ";
+}
+h1{
+margin:0;
+color:#053B60;
+}
+.first-btn{
+	color:#053B60;
+	background: transparent;
+    border: 0px;
+}
+.other-btn{
+	color:#4DB5E4;
+    background: transparent;
+    border: 0px;
+}
+.header-btn{
+	margin:10px;
+}
+
+/*header section css end*/
+
+/*Main section css*/
+.main{
+	
+	background-image:url(../img/kid.jpg)	
+}
+.sub-main p{
+	color:white;
+  overflow: hidden;
+  font-size:larger;
+}
+.sup-sub-main-first{
+width:266.594px;
+float:left;
+text-align:left;
+
+}
+.sup-sub-main-second{
+width:799.781px;
+float:left;
+text-align:left;
+	
+}
+.card{
+	text-align:center;
+	background-color:white;
+	border-radius:23px;
+}
+.card div{
+	text-align:center;
+	padding:10px;
+	margin:5px;
+	line-height:0.9;
+	color:#053B60;
+}
+.card h1{
+	color:rgb(174,209,143);
+	padding:15px;
+}
+.card-content{
+	width:90%;
+}
+.underL{
+width:30%;
+}
+hr {
+	color:rgb(174,209,143);
+	margin:0;
+}
+.card-second{
+	width:31%;
+	float:left;	
+	padding-top:0%;
+	margin:5px;
+}
+.card-second div{
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	line-height:0.9;
+}
+.sub-card-head{
+background-color:#4DB5E4;
+margin:0;
+padding:0;
+}
+.sub-card-body{
+}
+/*Main section css end*/
+
+/*Footer Section*/
+.footer{
+	color:gray;
+	font-size:small;
+	
+}	
+.sub-footer-first{
+width:25%;
+float:left;
+text-align:left;
+background-color:#D3D3D3;
+padding-top:70px;
+padding-bottom:50px;
+height:90px;
+}
+.sub-footer-first h1{
+	color:gray;
+}
+.sub-footer-second{
+width:75%;
+float:left;
+text-align:left;
+background-color:#D3D3D3;
+padding-top:70px;
+padding-bottom:50px;
+}
+.sup-sub-footer{
+width:25%;
+float:left;
+text-align:left;
+	
+}
+
+/*Footer Section End*/
+
+/*testing*/
+.first{
+background-color:yellow;
+}
+.second{
+background-color:green;
+}
+body{
+}
+.card{
+border:2px;
+}
+.trans{
+	background-color:transparent;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
